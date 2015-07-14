@@ -13,11 +13,19 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When you are working in an experimental/new functionality, or you are correcting a bug, and you don't want to affect your current stable work.
 
 How do the diagrams help you visualize the branch structure?
+	They help showing the relationship(parents) between branches and the changes made inside each branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The result of merging  two branches together is a new commit in the branch I was when I made the merge. It is the result of the merge of all changes made in the branches.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+	PROS:
+		It saves time
+	CONS: 
+		It is not always possible for Git to perform an automatic merging.
